@@ -11,8 +11,8 @@ brew install --cask askloci/tap/loci
 To tap first and install by the short name, trust the cask before installing:
 
 ```sh
-brew tap askloci/tap
 brew trust --cask askloci/tap/loci
+brew tap askloci/tap
 brew install --cask loci
 ```
 
