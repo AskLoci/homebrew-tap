@@ -1,11 +1,16 @@
 cask "loci" do
-  version :latest
-  sha256 :no_check
+  version "0.1.21"
+  sha256 "3e7e702dd0f54d4adf24fe2447c3b8048ea2c24aff7c3891772091c29e27ae99"
 
-  url "https://askloci.ai/api/mac-download"
+  url "https://akregqxqe8wb6ueu.public.blob.vercel-storage.com/mac/#{version}/#{version}/Loci-3e7e702dd0f54d4adf24fe2447c3b8048ea2c24aff7c3891772091c29e27ae99.dmg"
   name "Loci"
   desc "Private AI assistant that runs models locally"
   homepage "https://askloci.ai/"
+
+  livecheck do
+    url "https://akregqxqe8wb6ueu.public.blob.vercel-storage.com/mac-rust/updates/stable/appcast.xml"
+    strategy :sparkle
+  end
 
   depends_on arch: :arm64
   depends_on macos: :sonoma
