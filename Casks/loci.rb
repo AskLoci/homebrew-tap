@@ -1,8 +1,8 @@
 cask "loci" do
-  version "0.1.27"
-  sha256 "88b9231ba90127815b18ea0f217b3822b1efd7276aba1f492b5f1adee46f1c66"
+  version "0.1.28"
+  sha256 "aa303a302685a7da54fa0d3a8607be9a1c541909eda0abbc44dbaeccbaff36c5"
 
-  url "https://akregqxqe8wb6ueu.public.blob.vercel-storage.com/mac/#{version}/#{version}/Loci-88b9231ba90127815b18ea0f217b3822b1efd7276aba1f492b5f1adee46f1c66.dmg"
+  url "https://akregqxqe8wb6ueu.public.blob.vercel-storage.com/mac/#{version}/#{version}/Loci-aa303a302685a7da54fa0d3a8607be9a1c541909eda0abbc44dbaeccbaff36c5.dmg"
   name "Loci"
   desc "Private AI assistant that runs models locally"
   homepage "https://askloci.ai/"
@@ -14,7 +14,7 @@ cask "loci" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: :sonoma
+  depends_on macos: :tahoe
   container type: :dmg
 
   app "Install Loci.app/Contents/Resources/Loci.app"
