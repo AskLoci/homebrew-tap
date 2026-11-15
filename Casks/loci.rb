@@ -1,8 +1,8 @@
 cask "loci" do
-  version "2.1.4"
-  sha256 "5007e7957e7cee7282b73fc6559aeb3a000a69992e75cd7837028f05d318a6cc"
+  version "2.1.5"
+  sha256 "5a32d16885e76aed1ede45a6abb6caf24f1953e2893a97c291458139e6abd04d"
 
-  url "https://akregqxqe8wb6ueu.public.blob.vercel-storage.com/mac/#{version}/#{version}/Loci-5007e7957e7cee7282b73fc6559aeb3a000a69992e75cd7837028f05d318a6cc.dmg"
+  url "https://akregqxqe8wb6ueu.public.blob.vercel-storage.com/mac/#{version}/#{version}/Loci-5a32d16885e76aed1ede45a6abb6caf24f1953e2893a97c291458139e6abd04d.dmg"
   name "Loci"
   desc "Private AI assistant that runs models locally"
   homepage "https://askloci.ai/"
